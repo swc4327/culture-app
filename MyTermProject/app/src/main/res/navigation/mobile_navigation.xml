@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_music">
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="kr.ac.kumoh.s20150686.mytermproject.ui.music.MusicFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="kr.ac.kumoh.s20150686.mytermproject.ui.movie.MovieFragment"
+        android:label="@string/title_movie"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_book"
+        android:name="kr.ac.kumoh.s20150686.mytermproject.ui.book.BookFragment"
+        android:label="@string/title_book"
+        tools:layout="@layout/fragment_book" />
+</navigation>
